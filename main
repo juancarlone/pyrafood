@@ -1,0 +1,17 @@
+#Primero en este programita debemos pensar en datos de dias,
+# y luego interrelacionarlos
+
+import random
+
+#def main():
+
+
+num = int(input("numero: "))
+dict1={
+    "proteina": num
+}
+if dict1["proteina"] < 2:
+    dict1["proteina"]+=1
+    print(dict1)
+else:
+    print("Proteinas completas")
